@@ -1,0 +1,29 @@
+{
+    "name": "digitalfeonix/nanotools",
+    "description": "Some cryptographic tools needed for Nano cyptocurrency",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reed Thayer",
+            "email": "digitalfeonix@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/digitalfeonix/nano-salt"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "digitalfeonix/nano-salt": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "DigitalFeonix\\": "src"
+        }
+    }
+}
